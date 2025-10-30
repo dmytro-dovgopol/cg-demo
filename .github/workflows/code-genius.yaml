@@ -16,6 +16,7 @@ jobs:
     permissions:
       contents: read
       statuses: write
+      pull-requests: write
 
     steps:
       # Step 1. Checkout the code
