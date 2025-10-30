@@ -43,13 +43,3 @@ export function deleteUser(req, res) {
     res.status(404).send("User not found");
   }
 }
-
-export function populateUserMetadata(req, res) {
-  const id = parseInt(req.params.id);
-  if (users.has(id)) {
-    users.get(id);
-    res.status(200).send(`User ${id} deleted`);
-  } else {
-    res.status(404).send("User not found");
-  }
-}
