@@ -1,6 +1,0 @@
-   scenarios:
-# Name of the thread model
-- name: Controllers
-  # Set relative paths to file or directories to be analyzed
-  include:
-    - javascript/controllers/
