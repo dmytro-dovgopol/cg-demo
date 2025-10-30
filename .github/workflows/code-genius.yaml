@@ -29,3 +29,4 @@ jobs:
           # Make sure to include
           CG_CLIENT_ID: ${{ secrets.CG_CLIENT_ID }}
           CG_CLIENT_SECRET: ${{ secrets.CG_CLIENT_SECRET }}
+          GITHUB_TOKEN: ${{ github.token }}
