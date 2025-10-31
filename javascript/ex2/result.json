@@ -1,0 +1,159 @@
+{
+    "threat_modal_uuid": "5c35ff4b-3f52-46d0-b4c5-a6f1d301044d",
+    "cli_token": "token",
+    "data": [
+        {
+            "title": "sequelize.js",
+            "nodes": [
+                {
+                    "id": "f30b5e2e-27c9-44f5-a13e-e8ea7de75de6",
+                    "type": "trustBoundaryNode",
+                    "data": {
+                        "fileId": "c3b91774-d1e5-412a-8eba-223c05741ad5"
+                    },
+                    "position": {
+                        "y": -50,
+                        "x": -50
+                    },
+                    "positionAbsolute": {
+                        "y": -50,
+                        "x": -50
+                    },
+                    "style": {
+                        "width": 850,
+                        "height": 200
+                    },
+                    "hash": "053a80f64287f28c178b8e001471f6c5",
+                    "location": "1:1"
+                },
+                {
+                    "id": "0d641620-d678-4ced-9efd-b7a8d85bef69",
+                    "type": "externalEntityNode",
+                    "data": {
+                        "label": "User"
+                    },
+                    "position": {
+                        "y": 0,
+                        "x": -400
+                    },
+                    "positionAbsolute": {
+                        "y": 0,
+                        "x": 0
+                    },
+                    "style": {},
+                    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "id": "0d641620-d678-4ced-9efd-b7a8d85bef69",
+                    "type": "externalEntityNode",
+                    "data": {
+                        "label": "User"
+                    },
+                    "position": {
+                        "y": 0,
+                        "x": -400
+                    },
+                    "positionAbsolute": {
+                        "y": 0,
+                        "x": 0
+                    },
+                    "style": {},
+                    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "id": "806e8ddb-be10-4b9c-ab36-5d7587cce868",
+                    "type": "processNode",
+                    "data": {
+                        "label": "WishEntity",
+                        "fileId": "c3b91774-d1e5-412a-8eba-223c05741ad5"
+                    },
+                    "position": {
+                        "y": 0,
+                        "x": 0
+                    },
+                    "positionAbsolute": {
+                        "y": 0,
+                        "x": 0
+                    },
+                    "style": {},
+                    "hash": "8c7151c406a3219da1fd136c2287bbbc",
+                    "location": "9:7"
+                },
+                {
+                    "id": "666f953a-163d-4634-906a-fbc8b4169d6b",
+                    "type": "processNode",
+                    "data": {
+                        "label": "Wish (entity)",
+                        "fileId": "c3b91774-d1e5-412a-8eba-223c05741ad5"
+                    },
+                    "position": {
+                        "y": 0,
+                        "x": 400
+                    },
+                    "positionAbsolute": {
+                        "y": 0,
+                        "x": 400
+                    },
+                    "style": {},
+                    "hash": "8c3a2818f301d0a2bbe9ec031332b6ef",
+                    "location": "9:20"
+                },
+                {
+                    "id": "05f1ff5a-bca5-4dd0-b2d4-346913544c01",
+                    "type": "processNode",
+                    "data": {
+                        "label": "General Attributes"
+                    },
+                    "position": {
+                        "y": -150,
+                        "x": -150
+                    },
+                    "positionAbsolute": {
+                        "y": 0,
+                        "x": 0
+                    },
+                    "style": {},
+                    "hash": "8aa894ecb82eac398c64978cd1a8ca81"
+                }
+            ],
+            "edges": [
+                {
+                    "id": "a9b13e08-1ef6-461c-8ac7-8e02468b1753",
+                    "source": "806e8ddb-be10-4b9c-ab36-5d7587cce868",
+                    "sourceHandle": "sourceRight",
+                    "target": "666f953a-163d-4634-906a-fbc8b4169d6b",
+                    "targetHandle": "targetLeft",
+                    "type": "default",
+                    "data": {
+                        "hiddenLabel": true,
+                        "markerType": "end"
+                    },
+                    "markerEnd": {
+                        "type": "arrowclosed"
+                    }
+                },
+                {
+                    "id": "b4ca00e3-e52f-4305-8e5b-ac9f02260846",
+                    "source": "0d641620-d678-4ced-9efd-b7a8d85bef69",
+                    "sourceHandle": "sourceRight",
+                    "target": "806e8ddb-be10-4b9c-ab36-5d7587cce868",
+                    "targetHandle": "targetLeft",
+                    "type": "smoothstep",
+                    "data": {
+                        "hiddenLabel": true,
+                        "markerType": "end"
+                    },
+                    "markerEnd": {
+                        "type": "arrowclosed"
+                    }
+                }
+            ],
+            "files": [
+                {
+                    "id": "c3b91774-d1e5-412a-8eba-223c05741ad5",
+                    "path": "https://github.com/Devici-ThreatModel/devici-codegenius-examples/tree/3092d790a73b329dab9be81d65f538058625d5e6/javascript/ex2/sequelize.js"
+                }
+            ]
+        }
+    ]
+}
